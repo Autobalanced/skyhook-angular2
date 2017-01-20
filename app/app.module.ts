@@ -5,10 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent }  from './app.component';
+import { LandingComponent } from './landing/landing.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   imports:      [ BrowserModule, NgbModule.forRoot() ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, LandingComponent, NavigationComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
