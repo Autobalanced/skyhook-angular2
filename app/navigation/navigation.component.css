@@ -1,0 +1,6 @@
+/* Increase navbar height on larger screen sizes */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 1rem 10rem;
+  }
+}

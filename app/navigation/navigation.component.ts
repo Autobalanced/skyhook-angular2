@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 	moduleId: module.id,
 	selector: 'navigation',
   	templateUrl: 'navigation.component.html',
-  	// styleUrls: ['this.component.css']
+		styleUrls: ['navigation.component.css']
 })
 
 export class NavigationComponent {
